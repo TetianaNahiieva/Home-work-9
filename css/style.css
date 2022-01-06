@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.weather {
+  width: 832px;
+  height: 547px;
+  background-color: #2B81AC;
+  padding: 14px 17px 13px 16px;
+}
+
+.weather .weather__block {
+  width: 799px;
+  height: 520px;
+  background-color: #3399CC;
+  padding: 94px 130px 95px 130px;
+}
+
+.weather .weather__block .weather__city {
+  width: 539px;
+  height: 331px;
+  background-color: #FFFFFF;
+}
+
+.weather .weather__block .weather__city .weather__city-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Lisbon {
+  width: 268px;
+  height: 81px;
+  background-color: #3399CC;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Lisbon .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Lisbon .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Paris {
+  width: 134px;
+  height: 81px;
+  background-color: #03CCCC;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Paris .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Paris .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #FFFFFF;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Belgrade {
+  width: 134px;
+  height: 81px;
+  background-color: #996699;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: #FFFFFF solid 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Belgrade .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-1 .Belgrade .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #666699;
+}
+
+.weather .weather__block .weather__city .weather__city-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Venice {
+  width: 134px;
+  height: 81px;
+  background-color: #C24747;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Venice .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Venice .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #FFFFFF;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Tel-Aviv {
+  width: 134px;
+  height: 81px;
+  background-color: #E2674A;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Tel-Aviv .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Tel-Aviv .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #FFFFFF;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Kyiv {
+  width: 134px;
+  height: 81px;
+  background-color: #FFCC66;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Kyiv .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Kyiv .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #666699;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Amsterdam {
+  width: 134px;
+  height: 81px;
+  background-color: #339966;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: #FFFFFF solid 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Amsterdam .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-2 .Amsterdam .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #666699;
+}
+
+.weather .weather__block .weather__city .weather__city-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .Tokyo {
+  width: 134px;
+  height: 81px;
+  background-color: #669999;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .Tokyo .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .Tokyo .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #FFFFFF;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .San-Francisco {
+  width: 268px;
+  height: 81px;
+  background-color: #CC6699;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .San-Francisco .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .San-Francisco .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #FFFFFF;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .Sydney {
+  width: 134px;
+  height: 81px;
+  background-color: #996699;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: none;
+  border-right: #FFFFFF solid 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .Sydney .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-3 .Sydney .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #666699;
+}
+
+.weather .weather__block .weather__city .weather__city-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weather .weather__block .weather__city .weather__city-4 .New-Delhi {
+  width: 536px;
+  height: 85px;
+  background-color: #C24747;
+  border-left: #FFFFFF solid 3px;
+  border-top: #FFFFFF solid 3px;
+  border-bottom: #FFFFFF solid 3px;
+  border-right: #FFFFFF solid 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
+
+.weather .weather__block .weather__city .weather__city-4 .New-Delhi .city-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather .weather__block .weather__city .weather__city-4 .New-Delhi .city-img img {
+  padding-left: 5px;
+  width: 26px;
+  height: 27px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */

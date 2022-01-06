@@ -1,0 +1,341 @@
+$color-white: #FFFFFF;
+$color-black-purple: #666699;
+$color-red: #CC6699;
+$color-gray: #669999;
+$color-green: #339966;
+$color-light-green: #99CC99;
+$color-yellow: #FFCC66;
+$color-purple: #996699;
+$color-blue: #03CCCC;
+$color-orange: #E2674A;
+$color-turquoise: #3399CC;
+$color-brown: #C24747;
+$color-black-turquoise: #2B81AC;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    padding: 0;
+}
+body {
+    background-color: $color-white;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container {
+    display: flex;  
+}
+.weather {
+    width: 832px;
+    height: 547px;
+    background-color: $color-black-turquoise;
+    padding: 14px 17px 13px 16px;
+    .weather__block {
+        width: 799px;
+        height: 520px;
+        background-color: $color-turquoise;
+        padding: 94px 130px 95px 130px;
+        .weather__city {
+            width: 539px;
+            height: 331px;
+            background-color: $color-white;
+            .weather__city-1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .Lisbon {
+                    width: 268px;
+                    height: 81px;
+                    background-color: $color-turquoise;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            
+                        }
+                    }
+                }
+                .Paris {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-blue;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-white;
+                        }
+                    }
+                }
+                .Belgrade {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-purple;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: $color-white solid 3px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-black-purple
+                        }
+                    }
+                }
+            }
+            .weather__city-2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .Venice {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-brown;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-white;
+                        }
+                    }
+                }
+                .Tel-Aviv {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-orange;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-white;
+                        }
+                    }
+                }
+                .Kyiv {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-yellow;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-black-purple
+                        }
+                    }
+                }
+                .Amsterdam {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-green;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: $color-white solid 3px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-black-purple
+                        }
+                    }
+                }
+            }
+            .weather__city-3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .Tokyo {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-gray;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-white;
+                        }
+                    }
+                }
+                .San-Francisco {
+                    width: 268px;
+                    height: 81px;
+                    background-color: $color-red;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: none;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-white;
+                        }
+                    }
+                }
+                .Sydney {
+                    width: 134px;
+                    height: 81px;
+                    background-color: $color-purple;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: none;
+                    border-right: $color-white solid 3px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-black-purple
+                        }
+                    }
+                }
+            }
+            .weather__city-4 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .New-Delhi {
+                    width: 536px;
+                    height: 85px;
+                    background-color: $color-brown;
+                    border-left: $color-white solid 3px;
+                    border-top: $color-white solid 3px;
+                    border-bottom: $color-white solid 3px;
+                    border-right: $color-white solid 3px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-white;
+                    font-family: 'Roboto';
+                    line-height: 19px;
+                    .city-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            padding-left: 5px;
+                            width: 26px;
+                            height: 27px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }           
+        }
+    }
+}
+
